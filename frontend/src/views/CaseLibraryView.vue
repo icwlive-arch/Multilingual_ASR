@@ -1,0 +1,1 @@
+<template><div class="content"><div class="page-title"><div><p class="eyebrow">CASE LIBRARY</p><h1>Case 库</h1><p>识别问题与复核流程将在后续版本接入。</p></div></div><section class="card empty-page">暂无 Case 数据</section></div></template>

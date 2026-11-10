@@ -1,0 +1,2 @@
+<script setup>defineProps({models:Array,selected:Array});const emit=defineEmits(['update:selected']);function toggle(id){let n=selected.includes(id)?selected.filter(x=>x!==id):selected.length<3?[...selected,id]:selected;emit('update:selected',n)}</script><template><div class="model-grid"><button v-for="m in models" :key="m.id" type="button" :class="{chosen:selected.includes(m.id)}" @click="toggle(m.id)"><span>{{selected.includes(m.id)?'✓':'○'}}</span>{{m.name}}</button></div>
+</template>

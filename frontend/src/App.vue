@@ -1,0 +1,1 @@
+<script setup>import AppSidebar from './components/AppSidebar.vue';</script><template><div class="app-shell"><AppSidebar/><main class="main"><header><span>语音实验室</span><b>/</b><span>多语言测评工作台</span></header><router-view/><footer>WORLD VOICE LAB · 从真实语音出发，让理解跨越语言。</footer></main></div></template>

@@ -1,0 +1,1 @@
+<template><div class="content"><div class="page-title"><div><p class="eyebrow">HISTORY</p><h1>测试历史</h1><p>历史测评记录将在后续版本接入。</p></div></div><section class="card empty-page">暂无历史记录</section></div></template>

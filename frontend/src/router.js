@@ -1,0 +1,2 @@
+import {createRouter,createWebHistory} from 'vue-router'; import OnlineTestView from './views/OnlineTestView.vue'; import TestHistoryView from './views/TestHistoryView.vue'; import CaseLibraryView from './views/CaseLibraryView.vue';
+export default createRouter({history:createWebHistory(),routes:[{path:'/',redirect:'/test'},{path:'/test',component:OnlineTestView},{path:'/history',component:TestHistoryView},{path:'/cases',component:CaseLibraryView}]});
